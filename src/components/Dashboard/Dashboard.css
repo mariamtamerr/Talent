@@ -1,0 +1,201 @@
+/* 
+
+.greenBox {
+    background-color: #073e32;
+width: 280px;
+}
+
+
+
+.boxImg {
+    width: 208px;
+    height: 56px;
+}
+
+
+
+.year {
+    width: 197px;
+    height: 32px;
+} */
+
+
+/* ---- header box style */
+
+.headerBox {
+    height: 98px;
+    width: 1440px;
+}
+
+.headerBox .headerRectangle {
+    background-color: #f7f7f7;
+    height: 98px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 1440px;
+}
+
+
+/* --------- side box style ------ */
+
+.sideBox {
+    height: 1024px;
+    width: 280px;
+}
+
+.sideBox .sideRectangle {
+    background-color: #073e32;
+    border-radius: 0px 32px 32px 0px;
+    height: 1024px;
+    /* left: 0; */
+    right: 0;
+    position: fixed;
+    top: 0;
+    transform: rotate(180deg);
+    width: 280px;
+}
+
+
+
+/* ------- image box styles -------- */
+
+.box {
+    height: 56px;
+    position: relative;
+    width: 208px;
+}
+
+.box .group {
+    height: 56px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 208px;
+}
+
+.box .ellipse {
+    height: 56px;
+    left: 152px;
+    position: absolute;
+    top: 0;
+    width: 56px;
+}
+
+.box .frame {
+    align-items: flex-end;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 4px;
+    left: 0;
+    position: absolute;
+    top: 6px;
+}
+
+.box .text-wrapper {
+    color: #000000;
+    direction: rtl;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.box .maii-saleh-gmail-com {
+    color: #c9c9c9;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+}
+
+
+
+/* -------------------------- */
+
+
+/*  year box style */
+
+
+.yearBox {
+    height: 32px;
+    position: relative;
+    width: 197px;
+}
+
+.yearBox.yearGroup {
+    height: 32px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 199px;
+}
+
+.yearBox.year.text-wrapper {
+    color: #000000;
+    direction: rtl;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    left: 147px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: left;
+    top: 0;
+}
+
+.yearBox.year.overlap-group-wrapper {
+    height: 31px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 142px;
+}
+
+.yearBox.year.overlap-group {
+    border-radius: 12px;
+    height: 31px;
+    position: relative;
+    width: 140px;
+}
+
+.yearBox.year.div {
+    color: #c9c9c9;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 99px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 7px;
+}
+
+.yearBox.year.rectangle {
+    border: 1px solid;
+    border-color: #050d5982;
+    border-radius: 12px;
+    height: 31px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 140px;
+}
+
+.yearBox.year.arrow-drop-down {
+    height: 20px;
+    left: 6px;
+    position: absolute;
+    top: 6px;
+    width: 20px;
+}
